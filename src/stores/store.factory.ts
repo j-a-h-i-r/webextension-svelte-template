@@ -1,5 +1,5 @@
 import { writable } from "svelte/store";
-import { getLocalStore, setLocalStore } from "./util/util";
+import { getLocalStore, setLocalStore } from "../util/util";
 
 export function createStore<T>(key: string, initialValue?: T) {
   const { set, subscribe, update: _update } = writable<T>(initialValue, (set) => {
