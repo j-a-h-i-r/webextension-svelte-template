@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid red;
+}
+
+.filename {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    background: lightgray;
+    padding: 2px 6px;
+    border-radius: 4px;
+}

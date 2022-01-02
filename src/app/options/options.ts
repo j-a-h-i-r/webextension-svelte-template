@@ -1,4 +1,4 @@
-import Options from './options/Options.svelte';
+import Options from './Options.svelte';
 
 const app = new Options({
     target: document.body,

@@ -1,4 +1,4 @@
-import Popup from './popup/Popup.svelte';
+import Popup from './Popup.svelte';
 
 const app = new Popup({
     target: document.body,
